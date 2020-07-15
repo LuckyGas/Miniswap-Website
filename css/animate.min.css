@@ -1234,6 +1234,7 @@ Copyright (c) 2014 Daniel Eden
   }
 }
 
+
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -1250,11 +1251,34 @@ Copyright (c) 2014 Daniel Eden
   }
 }
 
+
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
 
+@-webkit-keyframes fadeInLefts {
+  0% {
+    left:-240px
+  }
+
+  100% {
+    left:0px
+  }
+}
+@keyframes fadeInLefts {
+  0% {
+    left:-240px
+  }
+
+  100% {
+    left:0px
+  }
+}
+.fadeInLefts {
+  -webkit-animation-name: fadeInLefts;
+  animation-name: fadeInLefts;
+}
 @-webkit-keyframes fadeInLeftBig {
   0% {
     opacity: 0;

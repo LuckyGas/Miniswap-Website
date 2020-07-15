@@ -6,8 +6,12 @@ $(".sj .topr").click(function(){
 		$('.xf').css('display','block')
 });
 
-
-
+$(".toprt").toggle(function(){
+		$('.toprf').slideDown()
+},function(){
+	    $('.toprf').slideUp()
+	}
+);
 
 
 

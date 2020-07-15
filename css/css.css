@@ -150,14 +150,22 @@ body{ margin:0px; font-size:12px; background:#ffffff; color:#2b2b2b;}
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
 input,select,textarea,div{FONT-FAMILY:'Microsoft YaHei';}
 .mg{ margin-left:auto; margin-right:auto; overflow:hidden; width:1200px;}
-.top{ height:100px; line-height:100px;}
+.top{ height:100px; line-height:100px; overflow:visible}
 .pc{ background:url(../images/bg1.png) top right no-repeat; background-size:65% 100vh}
 .topm a{ display:block; width:110px; height:32px; line-height:32px; border:2px solid #fcb0aa; border-radius:34px; background:#fff; color:#fcb0aa; font-size:14px; margin-right:55px; margin-left:120px; display:block; margin-top:34px; text-align:center}
+.topz{ position:relative; padding-right:100px; box-sizing:border-box; overflow:visible}
+.topr{ margin-left:40px; width:90px; background:#fff; border-radius:15px; position:absolute; right:0px; top:30px; z-index:999}
+.toprt{ height:40px; line-height:40px; width:60px; margin-left:auto; margin-right:auto}
+.toprt:hover{ cursor:pointer}
+.toprtr img{ height:25px;}
+.toprf{ display:none}
+.toprf a{ display:block; margin-left:auto; margin-right:auto; border-top:1px solid #e1e3f5; width:60px; line-height:35px; line-height:35px; text-align:center; color:#000; font-size:14px;}
 .top-nav a{ font-size:14px; color:#000000; margin-left:40px;}
+.con1,.con6,.con8,.con9{ clear:both}
 .con1l{ padding-top:180px;}
 .con1r img{ width:620px; margin-top:50px;}
 .con1lm{ margin-top:15px; margin-bottom:50px;}
-.con1lf { display:block; width:215px; height:55px; line-height:55px; background:#372f7f; border-radius:20px; text-align:center}
+.con1lf { display:block; width:265px; height:55px; line-height:55px; background:#372f7f; border-radius:20px; text-align:center}
 .con1lf img{ margin-top:-4px; margin-right:20px;}
 .con2{ margin-top:90px; margin-bottom:90px; overflow:visible}
 .con2z{ box-shadow:0px 10px 25px rgba(0,0,0,0.1); overflow:visible; height:310px; box-sizing:border-box; border-radius:20px; background:url(../images/bg4.png) 0 0 no-repeat}
@@ -226,7 +234,8 @@ input,select,textarea,div{FONT-FAMILY:'Microsoft YaHei';}
 .topms a img{ margin-top:-3px; margin-right:8px;}
 .con4rf{ background:url(../images/t27.png) 0 0 no-repeat; width:381px; height:451px; background-size:100% 100%; border-radius:20px;}
 .con4rft{ height:47px; line-height:50px; width:120px; margin-left:146px; background:url(../images/t28.png) right bottom no-repeat; box-sizing:border-box;}
-.con4rfmz{ background:url(../images/t26.png) 0 0 no-repeat; width:248px; height:34px; line-height:34px; color:#372f7f;padding-left:15px; box-sizing:border-box}
+.con4rfm{ position:relative; height:34px; line-height:34px; overflow:hidden}
+.con4rfmz{ background:url(../images/t26.png) 0 0 no-repeat; width:248px; height:34px; line-height:34px; color:#372f7f;padding-left:15px; box-sizing:border-box; position:absolute; left:0px; top:0px; background-size:100% 100%}
 .con4rff li{ height:34px; line-height:34px; margin-bottom:2px;color:#372f7f}
 .con4rff li:nth-child(1){ padding-left:115px}
 .con4rff li:nth-child(2){ padding-left:92px}
@@ -236,11 +245,11 @@ input,select,textarea,div{FONT-FAMILY:'Microsoft YaHei';}
 .con4rff li:nth-child(6){ padding-left:38px}
 .con4rff li:nth-child(7){ padding-left:20px}
 .con4rff li:nth-child(8){ padding-left:10px}
-
-
-
-
-
+.con10{ width:1010px; text-align:left}
+.con10t{ text-align:center; margin-bottom:60px; font-size:46px; margin-top:60px;} 
+.con10m{ font-size:20px; margin-top:12px; margin-bottom:40px;}
+.con10f p{ font-size:18px; line-height:34px; margin-bottom:20px; color:#000000; padding:0px; margin-top:0px;}
+.con10f p.on{ color:#bf068d}
 
 
 
@@ -288,14 +297,20 @@ input,select,textarea,div{FONT-FAMILY:'Microsoft YaHei';}
 .mxi52{ font-size:52px;}
 .mxi59{ font-size:59px;}
 .mxi60{ font-size:60px;}
-.top{ height:140px; line-height:140px;}
+.top{ height:140px; line-height:140px; overflow:visible}
+.topz{ position:relative; overflow:visible}
 .sj{ background:url(../images/bg5.png) 0 0 no-repeat; background-size:100% 966px;}
-.topr{ margin-left:40px;}
+.topm{ margin-left:40px; width:130px; background:#fff; border-radius:20px; position:absolute; right:120px; top:44px; overflow:visible; z-index:99999}
+.toprt{ height:60px; line-height:60px; width:100px; margin-left:auto; margin-right:auto}
+.toprtl img{ height:7px; margin-left:10px;}
+.toprtr img{ height:40px;}
+.toprf{ display:none}
+.toprf a{ display:block; margin-left:auto; margin-right:auto; border-top:1px solid #e1e3f5; width:100px; line-height:50px; line-height:50px; text-align:center; color:#000; font-size:20px;}
 .con1{ text-align:center}
 .con1l{ padding-top:60px; float:none}
 .con1r img{ width:640px; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:10px;}
 .con1lm{ margin-top:15px; margin-bottom:50px;}
-.con1lf { display:block; width:250px; height:65px; line-height:65px; background:#372f7f; border-radius:34px; text-align:center; margin-top:30px;}
+.con1lf { display:block; width:285px; height:65px; line-height:65px; background:#372f7f; border-radius:34px; text-align:center; margin-top:30px;}
 .con1lf img{ margin-top:-4px; margin-right:20px;}
 .con2{ margin-top:90px; margin-bottom:90px; text-align:center; padding-bottom:30px;}
 .con2z{ box-shadow:0px 10px 25px rgba(0,0,0,0.1); box-sizing:border-box; border-radius:20px; background:url(../images/bg4.png) 0 0 no-repeat}
@@ -372,7 +387,7 @@ input,select,textarea,div{FONT-FAMILY:'Microsoft YaHei';}
 .con4rff li:nth-child(6){ padding-left:38px}
 .con4rff li:nth-child(7){ padding-left:20px}
 .con4rff li:nth-child(8){ padding-left:10px}
-.xf{ position:fixed; left:0px; top:0px; width:100%; height:100%; background:#fff; display:none}
+.xf{ position:fixed; left:0px; top:0px; width:100%; height:100%; background:#fff; display:none; z-index:99999999999}
 .xfz{ width:538px; background:#372f7f; position:absolute; left:0px; top:0px; height:100%}
 .qx{ background:url(../images/t29.png) 0 0 no-repeat; width:49px; height:49px; position:absolute; right:20px; top:45px;}
 .xft{ line-height:140px; height:140px; padding-left:26px; box-sizing:border-box}
@@ -382,8 +397,13 @@ input,select,textarea,div{FONT-FAMILY:'Microsoft YaHei';}
 .con4ss{ background:none}
 .con4ss .con4lx{ margin-bottom:60px;}
 .con7z{ overflow-x:scroll; }
-.con7t{ width:1150px}
+.con7t{ width:1150px; margin-bottom:40px}
 .con7m{ width:1200px; font-size:16px}
+.con10{ width:585px; text-align:left}
+.con10t{ text-align:center; font-size:46px; margin-top:40px; margin-bottom:50px;} 
+.con10m{ font-size:28px; margin-top:12px; margin-bottom:40px;}
+.con10f p{ font-size:20px; line-height:40px; margin-bottom:20px; color:#000000; padding:0px; margin-top:0px;}
+.con10f p.on{ color:#bf068d}
 }
 /*pc端*/
 @media (min-width:641px){
