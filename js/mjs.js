@@ -13,7 +13,19 @@ $(".toprt").toggle(function(){
 	}
 );
 
+$(".btn-tc").click(function(){
+		$('.xf2').fadeIn();
+		setTimeout(function() {
 
+                    $('.xf2').fadeOut();                                
+
+                }, 1500);               
+
+            })
+
+$(".xf2r").click(function(){
+		$('.xf2').fadeOut()
+});
 
 
 
